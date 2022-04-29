@@ -1,0 +1,9 @@
+.pillContainer {
+    border-radius: 3px;
+    line-height: 18px;
+    max-width: 110px;
+    margin: 0 1.5625% 0 0;
+    width: 38.4375%;
+    font-size: 11px;
+    text-align: center;
+}

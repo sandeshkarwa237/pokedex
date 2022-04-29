@@ -1,0 +1,22 @@
+.product-container {
+  margin-bottom: 25px;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.product-image-container {
+  position: relative;
+  height: 290px;
+  max-height: 290px;
+  margin-bottom: 10px;
+  width: 290px;
+  max-width: 290px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.product-title {
+  font-size: 1rem;
+  margin-bottom: 0px;
+}
