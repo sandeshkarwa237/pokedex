@@ -5,11 +5,7 @@
 }
 
 .search-field-container {
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: stretch;
-  width: 50%;
+  margin-bottom: 15px;
 }
 
 .search-field-icon {
