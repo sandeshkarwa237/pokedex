@@ -1,7 +1,7 @@
 import React from "react";
 import "./ItemOverview.css";
 import { Pill } from "../Pill/Pill";
-import { FavoriteIcon } from "../FavoriteIcon/FavoriteIcon";
+import { Favorites } from "../Favorites/Favorites";
 import { capitalizeFirstLetter } from "../../../utils/formatter";
 
 export const ItemOverview = ({
@@ -21,7 +21,7 @@ export const ItemOverview = ({
         alt={title + " image"}
         onClick={showDetailsSection}
       />
-      <FavoriteIcon
+      <Favorites
         isSelected={isSelected}
         addToFavorite={() => addToFavorite(id)}
       />

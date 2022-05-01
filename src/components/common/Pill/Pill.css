@@ -2,12 +2,12 @@
   border-radius: 3px;
   line-height: 18px;
   max-width: 110px;
-  margin: 0 1.5625% 0 0;
   width: 38.4375%;
   font-size: 11px;
   text-align: center;
   color: #fff;
   padding: 5px;
+  margin: 0 5px;
 }
 
 .pill-grass {
@@ -38,4 +38,9 @@
 .pill-normal {
   background-color: #12f80a;
   color: #000;
+}
+
+.pill-medium {
+  padding: 5px 20px;
+  font-size: 12px;
 }
